@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-
+import logo from "../public/logo-cropped.svg"
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-hero py-16 md:py-24 lg:py-32">
@@ -30,10 +30,10 @@ export function HeroSection() {
           </div>
 
           <div className="relative">
-            <div className="absolute -top-4 -right-4 w-12 h-12 border-t-2 border-r-2 border-primary"></div>
-            <div className="relative rounded-full overflow-hidden aspect-square max-w-md mx-auto">
+            {/* <div className="absolute -top-4 -right-4 w-12 h-12 border-t-2 border-r-2 border-primary"></div> */}
+            <div>
               <Image
-                src="https://media.licdn.com/dms/image/v2/C560BAQGDbdhpmxRmrg/company-logo_200_200/company-logo_200_200/0/1633548685050/hack4impact_logo?e=2147483647&v=beta&t=Cgni3x2P5I8nwhyAaHkblCo0OP6yx857PLG7O5Zw_W4"
+                src={logo}
                 alt="Hack4Impact logo"
                 width={500}
                 height={500}
@@ -41,7 +41,7 @@ export function HeroSection() {
                 priority
               />
             </div>
-            <div className="absolute -bottom-4 -left-4 w-12 h-12 border-b-2 border-l-2 border-primary"></div>
+            {/* <div className="absolute -bottom-4 -left-4 w-12 h-12 border-b-2 border-l-2 border-primary"></div> */}
           </div>
         </div>
       </div>
