@@ -25,40 +25,40 @@ export function Footer() {
             <p className="text-sm text-gray-300">Empowering Students. Transforming Social Impact.</p>
             <div className="flex gap-4">
               <Link
-                href="https://facebook.com/hack4impact"
+                href="https://www.instagram.com/hack4impactdrexel/"
                 aria-label="Facebook"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Facebook className="h-5 w-5" />
               </Link>
               <Link
-                href="https://instagram.com/hack4impact"
+                href="https://www.instagram.com/hack4impactdrexel/"
                 aria-label="Instagram"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link
+              {/* <Link
                 href="https://linkedin.com/company/hack4impact"
                 aria-label="LinkedIn"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
-              </Link>
+              </Link> */}
               <Link
-                href="https://github.com/hack4impact"
+                href="https://github.com/hack4impactdrexel"
                 aria-label="GitHub"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Github className="h-5 w-5" />
               </Link>
-              <Link
+              {/* <Link
                 href="https://twitter.com/hack4impact"
                 aria-label="Twitter"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Twitter className="h-5 w-5" />
-              </Link>
+              </Link> */}
             </div>
           </div>
 

@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-
+import Link from "next/link"
 export default function JoinPage() {
   // Create refs for sections we want to animate
   const sectionRefs = {
@@ -242,7 +242,15 @@ export default function JoinPage() {
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
                   <div>
-                    <strong>Applications Open:</strong> September 15, 2025
+                    <strong>Applications Open:</strong> Late Spring Quarter
+                  </div>
+                </li>
+                {/* <li className="flex items-start">
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
+                  <div>
+                    <strong>Applications Close:</strong> N/A
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -250,7 +258,7 @@ export default function JoinPage() {
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
                   <div>
-                    <strong>Applications Close:</strong> October 1, 2025
+                    <strong>Interviews:</strong> N/A
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -258,22 +266,16 @@ export default function JoinPage() {
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
                   <div>
-                    <strong>Interviews:</strong> October 5-10, 2025
+                    <strong>Final Decisions:</strong> N/A
                   </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                    <div className="h-2 w-2 rounded-full bg-white"></div>
-                  </div>
-                  <div>
-                    <strong>Final Decisions:</strong> October 15, 2025
-                  </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="mt-8 text-center">
-              <Button className="bg-[#27AE60] hover:bg-[#219653]">Apply Now</Button>
-              <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfumagj2XgvdMzJOIMbKUh4cAqSPFoBVdR-Z9MVf5clHXsi3w/viewform?usp=header" passHref>
+              <Button className="bg-[#27AE60] hover:bg-[#219653]">Fill out Interest form today</Button>
+            </Link>
+            {/* <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p> */}
             </div>
           </div>
         </section>
@@ -331,8 +333,10 @@ export default function JoinPage() {
             Ronald McDonald House mobile app initiative.
           </p>
           <div className="mt-6">
-            <Button className="bg-[#27AE60] hover:bg-[#219653]">Apply Now</Button>
-            <p className="mt-2 text-sm text-white/80">Applications for Fall 2025 are now open!</p>
+            <Link href="https://discord.gg/RUWayNEaTG" passHref>
+              <Button className="bg-[#27AE60] hover:bg-[#219653]">Join our discord</Button>
+            </Link>
+            {/* <p className="mt-2 text-sm text-white/80"></p> */}
           </div>
         </section>
       </div>
