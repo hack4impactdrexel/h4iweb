@@ -1,7 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Facebook, Instagram, Linkedin, Github, Twitter } from "lucide-react"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDiscord } from '@fortawesome/free-solid-svg-icons'
+import { FaDiscord } from "react-icons/fa6";
+import { RxDiscordLogo } from "react-icons/rx";
 export function Footer() {
   return (
     <footer className="bg-primary text-white">
@@ -51,6 +54,17 @@ export function Footer() {
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Github className="h-5 w-5" />
+              </Link>
+              <Link
+                href="https://discord.gg/RUWayNEaTG"
+                aria-label="Discord"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                {/* <FaDiscord></FaDiscord> */}
+                <RxDiscordLogo />
+                {/* <FontAwesomeIcon icon="fa-brands fa-discord" /> */}
+                {/* <p>hello</p> */}
+                {/* <Github className="h-5 w-5" /> */}
               </Link>
               {/* <Link
                 href="https://twitter.com/hack4impact"

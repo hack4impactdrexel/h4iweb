@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Facebook, Instagram, Linkedin, Github, Twitter } from "lucide-react"
-
+import { RxDiscordLogo } from "react-icons/rx";
+import { FaDiscord } from "react-icons/fa6";
 export function SocialPreview() {
   return (
     <section className="py-16 bg-gray-50">
@@ -48,6 +49,18 @@ export function SocialPreview() {
             >
               <Github className="h-5 w-5 text-primary" />
             </Link>
+            <Link
+                href="https://discord.gg/RUWayNEaTG"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center hover:bg-secondary/10 transition-colors"
+                aria-label="GitHub">
+                {/* <FaDiscord className="h-5 w-5" /> */}
+                <RxDiscordLogo  className="h-5 w-5" />
+                {/* <FontAwesomeIcon icon="fa-brands fa-discord" /> */}
+                {/* <p>hello</p> */}
+                {/* <Github className="h-5 w-5" /> */}
+              </Link>
             {/* <Link
               href="https://twitter.com/hack4impact"
               target="_blank"
