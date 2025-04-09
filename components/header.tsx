@@ -203,7 +203,7 @@ export function Header() {
                 {item.label}
               </a>
             ))}
-            <a
+            {/* <a
               href="/donate"
               onClick={(e) => {
                 e.preventDefault()
@@ -213,7 +213,7 @@ export function Header() {
               style={{ transitionDelay: "500ms" }}
             >
               Donate
-            </a>
+            </a> */}
           </nav>
 
           {/* Mobile Menu Button */}
