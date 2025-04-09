@@ -177,9 +177,7 @@ export function Header() {
             <div className="relative w-10 h-10 flex-shrink-0">
               <div className="absolute inset-0 border-2 border-primary transform rotate-3"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-7 h-7 rounded-full bg-secondary flex items-center justify-center">
-                  <Image src="/globe-icon.svg" alt="Globe Icon" width={16} height={16} className="w-4 h-4" />
-                </div>
+                  <Image src="/hack4impact_earth_logo_1000_1000.png" alt="Globe Icon" width={16} height={16} className="w-8 h-8" />
               </div>
             </div>
             <span className="font-mono text-xl font-bold text-primary">hack4impact</span>

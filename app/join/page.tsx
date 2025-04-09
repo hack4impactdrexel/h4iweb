@@ -135,7 +135,7 @@ export default function JoinPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/Ronald_McDonald_House_Charities_50_years_info.png?height=300&width=400"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
