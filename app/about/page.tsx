@@ -118,7 +118,7 @@ export default function AboutPage() {
             <div className="mt-4 grid gap-6 md:grid-cols-2">
               <div className="flex items-center justify-center order-last md:order-first">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/Ronald_McDonald_House_Charities_logo.png?height=300&width=400"
                   alt="Mobile app mockup"
                   width={400}
                   height={300}
