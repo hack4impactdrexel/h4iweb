@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import Image from "next/image"
-
+import logo from "../public/logo-cropped.svg"
 export default function AboutPage() {
   // Create refs for sections we want to animate
   const sectionRefs = {
@@ -151,7 +151,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
                   <Image
-                    src="/placeholder.svg?height=128&width=128"
+                    src='./brandon_gorski.jpg'
                     alt="Brandon Gorski"
                     fill
                     className="object-cover"
@@ -164,7 +164,7 @@ export default function AboutPage() {
 
               <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
-                  <Image src="/placeholder.svg?height=128&width=128" alt="Shams Abrar" fill className="object-cover" />
+                  <Image src="./shams_abrar.jpg" alt="Shams Abrar" fill className="object-cover" />
                 </div>
                 <h3 className="mt-4 font-bold">Shams Abrar</h3>
                 <p className="text-[#27AE60]">Technical Lead</p>
@@ -174,7 +174,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
                   <Image
-                    src="/placeholder.svg?height=128&width=128"
+                    src="./chibuike_nwume.jpg"
                     alt="Chibuike Nwume"
                     fill
                     className="object-cover"
@@ -187,7 +187,7 @@ export default function AboutPage() {
 
               <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
-                  <Image src="/placeholder.svg?height=128&width=128" alt="Ryen Ling" fill className="object-cover" />
+                  <Image src="/ryen_ling.jpg" alt="Ryen Ling" fill className="object-cover" />
                 </div>
                 <h3 className="mt-4 font-bold">Ryen Ling</h3>
                 <p className="text-[#27AE60]">Project Manager</p>
