@@ -13,7 +13,7 @@ export function SocialPreview() {
           </p>
           <div className="flex gap-6">
             <Link
-              href="https://facebook.com/hack4impact"
+              href="https://www.instagram.com/hack4impactdrexel/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center hover:bg-secondary/10 transition-colors"
@@ -22,7 +22,7 @@ export function SocialPreview() {
               <Facebook className="h-5 w-5 text-primary" />
             </Link>
             <Link
-              href="https://instagram.com/hack4impact"
+              href="https://www.instagram.com/hack4impactdrexel/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center hover:bg-secondary/10 transition-colors"
@@ -30,7 +30,7 @@ export function SocialPreview() {
             >
               <Instagram className="h-5 w-5 text-primary" />
             </Link>
-            <Link
+            {/* <Link
               href="https://linkedin.com/company/hack4impact"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,9 +38,9 @@ export function SocialPreview() {
               aria-label="LinkedIn"
             >
               <Linkedin className="h-5 w-5 text-primary" />
-            </Link>
+            </Link> */}
             <Link
-              href="https://github.com/hack4impact"
+              href="https://github.com/hack4impactdrexel"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center hover:bg-secondary/10 transition-colors"
@@ -48,7 +48,7 @@ export function SocialPreview() {
             >
               <Github className="h-5 w-5 text-primary" />
             </Link>
-            <Link
+            {/* <Link
               href="https://twitter.com/hack4impact"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export function SocialPreview() {
               aria-label="Twitter"
             >
               <Twitter className="h-5 w-5 text-primary" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

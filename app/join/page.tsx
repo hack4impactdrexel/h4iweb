@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-
+import Link from "next/link"
 export default function JoinPage() {
   // Create refs for sections we want to animate
   const sectionRefs = {
@@ -272,8 +272,10 @@ export default function JoinPage() {
               </ul>
             </div>
             <div className="mt-8 text-center">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScfSk7dXiYAWWvcIPdN0DW1ZRCInnJb11Mct3pWh2L1NgoTFw/viewform?usp=header" passHref>
               <Button className="bg-[#27AE60] hover:bg-[#219653]">Apply Now</Button>
-              <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p>
+            </Link>
+            <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p>
             </div>
           </div>
         </section>
@@ -331,7 +333,9 @@ export default function JoinPage() {
             Ronald McDonald House mobile app initiative.
           </p>
           <div className="mt-6">
-            <Button className="bg-[#27AE60] hover:bg-[#219653]">Apply Now</Button>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScfSk7dXiYAWWvcIPdN0DW1ZRCInnJb11Mct3pWh2L1NgoTFw/viewform?usp=header" passHref>
+              <Button className="bg-[#27AE60] hover:bg-[#219653]">Apply Now</Button>
+            </Link>
             <p className="mt-2 text-sm text-white/80">Applications for Fall 2025 are now open!</p>
           </div>
         </section>
