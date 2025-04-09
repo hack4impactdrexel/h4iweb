@@ -188,7 +188,7 @@ export function Header() {
             {[
               { href: "/about", label: "About Us" },
               { href: "/join", label: "Apply" },
-              { href: "/contact", label: "Contact Us" },
+              // { href: "/contact", label: "Contact Us" },
             ].map((item, index) => (
               <a
                 key={item.href}

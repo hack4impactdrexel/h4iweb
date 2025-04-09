@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import logo from "../public/logo-cropped.svg"
+import { Button } from "@/components/ui/button"
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-hero py-16 md:py-24 lg:py-32">
@@ -20,12 +21,12 @@ export function HeroSection() {
               Building powerful nonprofit software as a <span className="font-bold">tool for social good</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/nonprofits" className="btn-primary inline-block text-center">
+              {/* <Link href="/nonprofits" className="btn-primary inline-block text-center">
                 Partner With Us
               </Link>
-              <Link href="/join" className="btn-outline inline-block text-center">
+              <Link href="/join" className="btn-outline inline-block text-center" passHref>
                 Apply Now
-              </Link>
+              </Link> */}
             </div>
           </div>
 
