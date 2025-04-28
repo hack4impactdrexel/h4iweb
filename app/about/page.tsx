@@ -79,7 +79,6 @@ export default function AboutPage() {
       `}</style>
 
       <div className="container px-4 py-12 md:px-6 md:py-16 lg:py-20">
-        <meta name="google-site-verification" content="9Z-a_isT2ErCPsR_v6Wr5BdoHEAwGrMw_FoQQdNlBVM" />
         <div className="mx-auto max-w-4xl">
           <div ref={sectionRefs.header} className="slide-up">
             <h1 className="font-space-mono text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">About Us</h1>
