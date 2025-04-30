@@ -25,6 +25,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "H4I | Hack4Impact Drexel University",
   description: "Empowering Students. Transforming Social Impact.",
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
