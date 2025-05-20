@@ -3,6 +3,7 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 
 const projects = [
+  // VACS, VRL , IFAM and RMHC
   {
     id: 1,
     title: "Volunteer Management Portal",

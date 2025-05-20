@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import Image from "next/image"
 import logo from "../public/logo-cropped.svg"
+import AboutCircle from "@/components/about-circle"
 export default function AboutPage() {
   // Create refs for sections we want to animate
   const sectionRefs = {
@@ -148,7 +149,7 @@ export default function AboutPage() {
             </p>
 
             <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="flex flex-col items-center text-center">
+              {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
                   <Image
                     src='./brandon_gorski.jpg'
@@ -160,18 +161,34 @@ export default function AboutPage() {
                 <h3 className="mt-4 font-bold">Brandon Gorski</h3>
                 <p className="text-[#27AE60]">Chapter President</p>
                 <p className="mt-2 text-sm text-gray-600">Computer Science '26</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center">
+              </div> */}
+                <AboutCircle 
+                  name="Brandon Gorski" 
+                  image="./brandon_gorski.jpg"
+                  role="Fallen Dictator"
+                  major="Computer Science '26">
+                </AboutCircle>
+                <AboutCircle 
+                  name="Shams Abrar" 
+                  image="./shams_abrar.jpg"
+                  role="President"
+                  major="Computer Science '28">
+                </AboutCircle>
+              {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
                   <Image src="./shams_abrar.jpg" alt="Shams Abrar" fill className="object-cover" />
                 </div>
                 <h3 className="mt-4 font-bold">Shams Abrar</h3>
                 <p className="text-[#27AE60]">Technical Lead</p>
                 <p className="mt-2 text-sm text-gray-600">Computer Science '28</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center">
+              </div> */}
+              <AboutCircle 
+                  name="Chibuike Nwume" 
+                  image="./chibuike_nwume.jpg"
+                  role="Vice President"
+                  major="Computer Science '28">
+              </AboutCircle>
+              {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
                   <Image
                     src="./chibuike_nwume.jpg"
@@ -183,16 +200,46 @@ export default function AboutPage() {
                 <h3 className="mt-4 font-bold">Chibuike Nwume</h3>
                 <p className="text-[#27AE60]">Technical Lead</p>
                 <p className="mt-2 text-sm text-gray-600">Computer Science '27</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center">
+              </div> */}
+              <AboutCircle 
+                  name="Ryen Ling" 
+                  image="./ryen_ling.jpg"
+                  role="Engineering Chair"
+                  major="Computer Science '27">
+              </AboutCircle>
+              {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
                   <Image src="/ryen_ling.jpg" alt="Ryen Ling" fill className="object-cover" />
                 </div>
                 <h3 className="mt-4 font-bold">Ryen Ling</h3>
                 <p className="text-[#27AE60]">Project Manager</p>
                 <p className="mt-2 text-sm text-gray-600">Computer Science '27</p>
-              </div>
+              </div> */}
+              <AboutCircle 
+                  name="Lola" 
+                  image="./placeholder-user.jpg"
+                  role="Design Director"
+                  major="Computer Science '27">
+              </AboutCircle>
+              <AboutCircle 
+                  name="Nithiya" 
+                  image="./placeholder-user.jpg"
+                  role="External Relations & Partnerships Director"
+                  major="Computer Science '27">
+              </AboutCircle>
+              <AboutCircle 
+                  name="David Fontaneu" 
+                  image="./placeholder-user.jpg"
+                  role="Event Coordinator"
+                  major="Computer Science '28">
+              </AboutCircle>
+              <AboutCircle 
+                  name="Mahi Nuthanphati" 
+                  image="./placeholder-user.jpg"
+                  role="Treasurer"
+                  major="Computer Science '27">
+              </AboutCircle>
+              
             </div>
           </section>
 
