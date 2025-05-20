@@ -242,15 +242,7 @@ export default function JoinPage() {
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
                   <div>
-                    <strong>Applications Open:</strong> Late Spring Quarter
-                  </div>
-                </li>
-                {/* <li className="flex items-start">
-                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                    <div className="h-2 w-2 rounded-full bg-white"></div>
-                  </div>
-                  <div>
-                    <strong>Applications Close:</strong> N/A
+                    <strong>Applications Open:</strong> Weeek 9 Spring Quarter
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -258,7 +250,15 @@ export default function JoinPage() {
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
                   <div>
-                    <strong>Interviews:</strong> N/A
+                    <strong>Applications Close:</strong> Week 9 Spring Quarter
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
+                  <div>
+                    <strong>Interviews:</strong> Week 10 Spring Quarter
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -268,12 +268,12 @@ export default function JoinPage() {
                   <div>
                     <strong>Final Decisions:</strong> N/A
                   </div>
-                </li> */}
+                </li>
               </ul>
             </div>
             <div className="mt-8 text-center">
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfumagj2XgvdMzJOIMbKUh4cAqSPFoBVdR-Z9MVf5clHXsi3w/viewform?usp=header" passHref>
-              <Button className="bg-[#27AE60] hover:bg-[#219653]">Fill out Interest form today</Button>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScqnCcmJobHURYdwudEXF8QCZ8igOYm6L4_gYnyOrwow9Hemw/viewform" passHref>
+              <Button className="bg-[#27AE60] hover:bg-[#219653]">Fill out the summer application form today</Button>
             </Link>
             {/* <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p> */}
             </div>
