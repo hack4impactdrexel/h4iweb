@@ -12,7 +12,7 @@ export function HeroSection() {
             <div className="space-y-2">
               <p className="text-primary-800 font-medium uppercase tracking-wider">WE ARE</p>
               <h1 className="font-mono text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
-                Engineers
+                Developers
                 <br />
                 for social change
               </h1>

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import logo from "../public/logo-copy.svg"
 import { Facebook, Instagram, Linkedin, Github, Twitter } from "lucide-react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord } from '@fortawesome/free-solid-svg-icons'
@@ -12,17 +13,25 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
-              <div className="relative w-10 h-10 flex-shrink-0">
+              {/* <div className="relative w-10 h-10 flex-shrink-0">
                 <div className="absolute inset-0 border-2 border-white transform rotate-3"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-7 h-7 rounded-full bg-secondary flex items-center justify-center">
                     <Image src="/globe-icon.svg" alt="Globe Icon" width={16} height={16} className="w-4 h-4" />
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="flex flex-col">
-                <span className="font-mono text-xl font-bold">hack4impact</span>
-                <span className="text-xs text-gray-300">Drexel University</span>
+              <div>
+              <Image
+                src={logo}
+                alt="Hack4Impact logo"
+                width={500}
+                height={500}
+                className="object-cover w-full h-full"
+                priority
+              />
+            </div>
               </div>
             </Link>
             <p className="text-sm text-gray-300">Empowering Students. Transforming Social Impact.</p>
@@ -90,8 +99,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/our-work" className="text-gray-300 hover:text-white transition-colors">
-                  Our Work
+                <Link href="/projects" className="text-gray-300 hover:text-white transition-colors">
+                  Our Projects
                 </Link>
               </li>
               <li>
