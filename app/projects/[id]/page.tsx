@@ -7,9 +7,9 @@ import { Github, ExternalLink } from "lucide-react"
 const projects = [
   {
     id: "1",
-    title: "Volunteer Management Portal",
-    organization: "Habitat for Humanity",
-    description: "A comprehensive platform that streamlines volunteer recruitment, scheduling, and management.",
+    title: "VACS Website",
+    organization: "Vision Academy Charter School",
+    description: "Produced website for Vision Academy charter school to help with outreach and marketing.",
     challenge:
       "Habitat for Humanity needed a better way to manage their growing volunteer base. Their existing process relied on spreadsheets and manual coordination, which was time-consuming and error-prone.",
     solution:
@@ -25,7 +25,7 @@ const projects = [
     ],
     liveUrl: "https://example.com/volunteer-portal",
     githubUrl: "https://github.com/hack4impact/volunteer-portal",
-    semester: "Fall 2025",
+    semester: "Spring 2025",
     team: [
       { name: "Alex Johnson", role: "Project Manager" },
       { name: "Jamie Smith", role: "Technical Lead" },

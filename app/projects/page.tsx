@@ -5,11 +5,11 @@ import { Card, CardContent } from "@/components/ui/card"
 const projects = [
   {
     id: 1,
-    title: "Volunteer Management Portal",
-    organization: "Habitat for Humanity",
-    description: "Streamlined volunteer sign-ups and scheduling, saving 5 hours of admin work weekly.",
+    title: "VACS Website",
+    organization: "Vision Academy Charter School",
+    description: "Produced website for Vision Academy charter school to help with outreach and marketing",
     image: "/placeholder.svg?height=200&width=300",
-    semester: "Fall 2025",
+    semester: "Spring 2025",
   },
   {
     id: 2,
