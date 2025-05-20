@@ -285,7 +285,7 @@ export default function NonprofitsPage() {
           </p>
           <div className="mt-6 flex flex-col gap-4 sm:flex-row">
             <Button className="bg-[#27AE60] hover:bg-[#219653]">Contact Us</Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-[#2C3E50]">
+            <Button variant="outline" className="border-white bg-[#2C3E50] text-white hover:bg-white hover:text-[#2C3E50]">
               Learn More
             </Button>
           </div>
