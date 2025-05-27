@@ -205,7 +205,7 @@ export default function AboutPage() {
                   name="Ryen Ling" 
                   image="./ryen_ling.jpg"
                   role="Engineering Chair"
-                  major="Computer Science '27">
+                  major="Computer Science '26">
               </AboutCircle>
               {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
@@ -241,7 +241,7 @@ export default function AboutPage() {
               </AboutCircle>
               <AboutCircle 
                   name="Tim Goranchaz" 
-                  image="./placeholder-user.jpg"
+                  image="./tim_goranchaz.jpg"
                   role="Faculty Advisor"
                   major="Teaching Professor at CCI">
               </AboutCircle>

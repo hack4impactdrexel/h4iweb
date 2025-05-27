@@ -138,10 +138,6 @@ export function Footer() {
             <a href="mailto:drexel@hack4impact.org" className="text-secondary hover:underline">
               drexel@hack4impact.org
             </a>
-            <p className="text-sm text-gray-300 mt-4 mb-2">For Ronald McDonald House project:</p>
-            <a href="mailto:rmhc-project@hack4impact.org" className="text-secondary hover:underline">
-              rmhc-project@hack4impact.org
-            </a>
           </div>
         </div>
 
