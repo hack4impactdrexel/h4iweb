@@ -49,55 +49,12 @@ export default function NonprofitsPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/website-optimization.jpg?height=300&width=400"
                 alt="Nonprofit collaboration"
                 width={400}
                 height={300}
                 className="rounded-lg object-cover"
               />
-            </div>
-          </div>
-        </section>
-
-        <section className="mt-12">
-          <h2 className="text-2xl font-bold">Ronald McDonald House Mobile App Initiative</h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <div className="flex items-center justify-center order-last md:order-first">
-              <Image
-                src="/placeholder.svg?height=300&width=400"
-                alt="Mobile app mockup"
-                width={400}
-                height={300}
-                className="rounded-lg object-cover"
-              />
-            </div>
-            <div>
-              <p className="text-gray-600">
-                Our inaugural project is developing a mobile application for Ronald McDonald House Charities to help
-                them better serve families with children receiving medical care. This app will:
-              </p>
-              <ul className="mt-4 space-y-2 text-gray-600">
-                <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#27AE60]"></div>
-                  <span>Streamline communication between families and staff</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#27AE60]"></div>
-                  <span>Provide easy access to resources and support services</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#27AE60]"></div>
-                  <span>Help families navigate their stay and nearby medical facilities</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#27AE60]"></div>
-                  <span>Offer tools for managing appointments and medications</span>
-                </li>
-              </ul>
-              <p className="mt-4 text-gray-600">
-                We're excited to work with Ronald McDonald House on this impactful project and look forward to expanding
-                our partnerships to other nonprofits in the future.
-              </p>
             </div>
           </div>
         </section>
