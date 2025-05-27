@@ -272,7 +272,7 @@ export default function JoinPage() {
               </ul>
             </div>
             <div className="mt-8 text-center">
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfumagj2XgvdMzJOIMbKUh4cAqSPFoBVdR-Z9MVf5clHXsi3w/viewform?usp=header" passHref>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScqnCcmJobHURYdwudEXF8QCZ8igOYm6L4_gYnyOrwow9Hemw/viewform?usp=header" passHref>
               <Button className="bg-[#27AE60] hover:bg-[#219653]">Fill out Interest form today</Button>
             </Link>
             {/* <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p> */}
