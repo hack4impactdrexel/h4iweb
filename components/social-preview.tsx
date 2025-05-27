@@ -13,7 +13,7 @@ export function SocialPreview() {
             activities
           </p>
           <div className="flex gap-6">
-            <Link
+            {/* <Link
               href="https://www.instagram.com/hack4impactdrexel/"
               target="_blank"
               rel="noopener noreferrer"
@@ -21,7 +21,7 @@ export function SocialPreview() {
               aria-label="Facebook"
             >
               <Facebook className="h-5 w-5 text-primary" />
-            </Link>
+            </Link> */}
             <Link
               href="https://www.instagram.com/hack4impactdrexel/"
               target="_blank"
