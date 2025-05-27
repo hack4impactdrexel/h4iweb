@@ -216,7 +216,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           <p className="mt-4 text-gray-600">{project.impact}</p>
         </div>
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <h2 className="text-2xl font-bold">Screenshots</h2>
           <div className="mt-6 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
             {project.screenshots.map((screenshot, index) => (
@@ -231,7 +231,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-12">
           <h2 className="text-2xl font-bold">Project Team</h2>
