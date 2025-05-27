@@ -135,7 +135,7 @@ export default function JoinPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/wicsbanner.png?height=700"
+                src="/stock.jpg?height=700"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
