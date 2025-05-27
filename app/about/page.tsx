@@ -104,17 +104,17 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpyK6uLIViGPAIeQ8Ytl7mP6vcV4b1TPI8Ww&s"
-                  alt="Drexel University campus"
+                  src="/wicsbanner.png?height=300&width=400"
+                  alt="Mobile app mockup"
                   width={400}
                   height={300}
-                  className="rounded-lg object-cover shadow-md"
+                  className="rounded-lg object-cover"
                 />
               </div>
             </div>
           </section>
 
-          <section ref={sectionRefs.rmhc} className="mt-12 slide-left">
+          {/* <section ref={sectionRefs.rmhc} className="mt-12 slide-left">
             <h2 className="text-2xl font-bold">Ronald McDonald Mobile App Initiative</h2>
             <div className="mt-4 grid gap-6 md:grid-cols-2">
               <div className="flex items-center justify-center order-last md:order-first">
@@ -139,7 +139,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section ref={sectionRefs.team} className="mt-12 slide-right">
             <h2 className="text-2xl font-bold">Team Introduction</h2>
