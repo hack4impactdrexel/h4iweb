@@ -17,7 +17,7 @@ const projects = [
     impact:
       "The platform will save the organization approximately 15 hours of administrative work per week and improved the volunteer experience, leading to a 15% increase in volunteer retention.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/Veteran_Rebuilding_Life_NGO-1-scaled.jpg?height=200&width=300",
     screenshots: [
       "/placeholder.svg?height=300&width=500",
       "/placeholder.svg?height=300&width=500",
@@ -34,7 +34,7 @@ const projects = [
   {
     id: "2",
     title: "Dream Charter Schools Website",
-    organization: "Dream Schools",
+    organization: "Vision Academy Charter Schools",
     description: "Visualized donation and distribution data to improve resource allocation by 15%.",
     challenge:
       "Dream Schools needed a user-friendly and informative website, along with basic branding and social media setup.",
@@ -43,7 +43,7 @@ const projects = [
     impact:
       "A strong online presence will significantly increase their visibility, help them attract new partners, and better serve public charter schools—particularly those in high-need communities who may not otherwise discover our services. It will also streamline volunteer engagement and donor interest.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/cropped-header-logo.webp?height=400&width=800",
     screenshots: [
       "/placeholder.svg?height=300&width=500",
       "/placeholder.svg?height=300&width=500",
@@ -70,7 +70,7 @@ const projects = [
     impact:
       "A strong online presence will significantly increase their visibility, help them attract new partners, and better serve public charter schools—particularly those in high-need communities who may not otherwise discover our services. It will also streamline volunteer engagement and donor interest.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/dcci.webp?height=200&width=300",
     screenshots: [
       "/placeholder.svg?height=300&width=500",
       "/placeholder.svg?height=300&width=500",
@@ -104,7 +104,7 @@ const projects = [
       "S3",
       "Aurora",
     ],
-    image: "/placeholder.svg?height=400&width=800",
+    image: "/ifam.jpg?height=200&width=300",
     screenshots: [
       "/placeholder.svg?height=300&width=500",
       "/placeholder.svg?height=300&width=500",
