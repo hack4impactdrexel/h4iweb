@@ -188,6 +188,7 @@ export function Header() {
             {[
               { href: "/about", label: "About Us" },
               { href: "/join", label: "Apply" },
+              { href: "/projects", label: "Our Projects" },
               // { href: "/contact", label: "Contact Us" },
             ].map((item, index) => (
               <a
