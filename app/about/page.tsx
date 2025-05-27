@@ -216,30 +216,35 @@ export default function AboutPage() {
                 <p className="mt-2 text-sm text-gray-600">Computer Science '27</p>
               </div> */}
               <AboutCircle 
-                  name="Lola" 
-                  image="./placeholder-user.jpg"
+                  name="Lola Sapaeva" 
+                  image="./lola-sapaeva.jpg"
                   role="Design Director"
-                  major="Computer Science '27">
+                  major="Computer Science '28">
               </AboutCircle>
               <AboutCircle 
-                  name="Nithiya" 
-                  image="./placeholder-user.jpg"
+                  name="Nitya Patel" 
+                  image="./nitya-patel.jpg"
                   role="External Relations & Partnerships Director"
-                  major="Computer Science '27">
+                  major="Computer Science '28">
               </AboutCircle>
               <AboutCircle 
-                  name="David Fontaneu" 
-                  image="./placeholder-user.jpg"
+                  name="David Fonteneau" 
+                  image="./david-fonteneau.jpg"
                   role="Event Coordinator"
                   major="Computer Science '28">
               </AboutCircle>
               <AboutCircle 
-                  name="Mahi Nuthanphati" 
-                  image="./placeholder-user.jpg"
+                  name="Mahi Nuthanapati" 
+                  image="./mahi-nuthanapati.png"
                   role="Treasurer"
                   major="Computer Science '27">
               </AboutCircle>
-              
+              <AboutCircle 
+                  name="Tim Goranchaz" 
+                  image="./placeholder-user.jpg"
+                  role="Faculty Advisor"
+                  major="Teaching Professor at CCI">
+              </AboutCircle>
             </div>
           </section>
 

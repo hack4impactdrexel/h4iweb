@@ -6,45 +6,59 @@ const projects = [
   // VACS, VRL , IFAM and RMHC
   {
     id: 1,
-    title: "Volunteer Management Portal",
-    organization: "Habitat for Humanity",
-    description: "Streamlined volunteer sign-ups and scheduling, saving 5 hours of admin work weekly.",
+    title: "Veteran Education Resource Portal",
+    organization: "Veterans Rebuilding Life Organization",
+    description: "Created app to help veterans with navigating information and eligibility for different VA benefits.",
     image: "/placeholder.svg?height=200&width=300",
-    semester: "Fall 2025",
+    semester: "Spring 2025",
+    year: 2025,
   },
   {
     id: 2,
-    title: "Food Bank Analytics Dashboard",
-    organization: "Local Food Bank",
-    description: "Visualized donation and distribution data to improve resource allocation by 15%.",
+    title: "Dream Charter Schools Website",
+    organization: "Dream Schools",
+    description: "Developed a user-friendly and informative website, along with basic branding and social media setup.",
     image: "/placeholder.svg?height=200&width=300",
-    semester: "Fall 2025",
+    semester: "Spring 2025",
+    year: 2025,
   },
   {
     id: 3,
-    title: "Mentorship Matching Platform",
-    organization: "Youth Mentoring Initiative",
-    description: "Connected 200+ mentors with at-risk youth through an intelligent matching algorithm.",
+    title: "RMHC Mobile App",
+    organization: "Ronald Mcdonald House Charities",
+    description: "Created mobile app for users to interact with RMHC events and help with dynamic scheduling.",
     image: "/placeholder.svg?height=200&width=300",
-    semester: "Spring 2026",
+    semester: "Summer 2024",
+    year: 2024,
   },
   {
     id: 4,
-    title: "Donation Tracking System",
-    organization: "Community Foundation",
-    description: "Built a system to track and acknowledge donations, increasing donor retention by 20%.",
+    title: "Composting Site Management System",
+    organization: "Delaware Community Composting Initiative",
+    description: "Built a system to track and manage data for composting sites",
     image: "/placeholder.svg?height=200&width=300",
-    semester: "Spring 2026",
+    semester: "Summer 2025",
+    year: 2025,
   },
+  {
+    id: 5,
+    title: "IFAM Mobile App",
+    organization: "Indomitable Families Affected by Incarceration",
+    description: "Built a mobile app that enables users to securely schedule and join classes, track rewards, manage profiles, and receive notifications through a scalable serverless architecture.",
+    image: "/placeholder.svg?height=200&width=300",
+    semester: "Summer 2025",
+    year: 2025,
+  },
+  
 ]
 
 // Group projects by semester
 const projectsBySemester = projects.reduce(
   (acc, project) => {
-    if (!acc[project.semester]) {
-      acc[project.semester] = []
+    if (!acc[project.year]) {
+      acc[project.year] = []
     }
-    acc[project.semester].push(project)
+    acc[project.year].push(project)
     return acc
   },
   {} as Record<string, typeof projects>,
@@ -64,11 +78,11 @@ export default function ProjectsPage() {
         </p>
 
         <div className="mt-12">
-          {sortedSemesters.map((semester) => (
-            <div key={semester} className="mb-12">
-              <h2 className="mb-6 inline-block border-b-2 border-[#27AE60] pb-1 text-2xl font-bold">{semester}</h2>
+          {sortedSemesters.map((year) => (
+            <div key={year} className="mb-12">
+              <h2 className="mb-6 inline-block border-b-2 border-[#27AE60] pb-1 text-2xl font-bold">{year}</h2>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
-                {projectsBySemester[semester].map((project) => (
+                {projectsBySemester[year].map((project) => (
                   <Card key={project.id} className="overflow-hidden">
                     <div className="relative h-48 w-full">
                       <Image
@@ -80,6 +94,7 @@ export default function ProjectsPage() {
                     </div>
                     <CardContent className="p-6">
                       <h3 className="text-xl font-bold">{project.title}</h3>
+                      <h2 className="text-xl font-bold">{project.semester}</h2>
                       <p className="text-[#27AE60]">{project.organization}</p>
                       <p className="mt-2 text-gray-600">{project.description}</p>
                       <Link
