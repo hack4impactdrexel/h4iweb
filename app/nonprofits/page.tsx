@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import Link from "next/link"
 
 export default function NonprofitsPage() {
   return (
@@ -284,10 +285,12 @@ export default function NonprofitsPage() {
             with other nonprofits for future collaborations. Reach out to start a conversation!
           </p>
           <div className="mt-6 flex flex-col gap-4 sm:flex-row">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScfSk7dXiYAWWvcIPdN0DW1ZRCInnJb11Mct3pWh2L1NgoTFw/viewform?usp=header" passHref>
             <Button className="bg-[#27AE60] hover:bg-[#219653]">Contact Us</Button>
-            <Button variant="outline" className="border-white bg-[#2C3E50] text-white hover:bg-white hover:text-[#2C3E50]">
+            </Link>
+            {/* <Button variant="outline" className="border-white bg-[#2C3E50] text-white hover:bg-white hover:text-[#2C3E50]">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </section>
       </div>
