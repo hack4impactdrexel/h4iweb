@@ -165,7 +165,7 @@ export default function AboutPage() {
                 <AboutCircle 
                   name="Brandon Gorski" 
                   image="./brandon_gorski.jpg"
-                  role="Fallen Dictator"
+                  role="Executive Advisor"
                   major="Computer Science '26">
                 </AboutCircle>
                 <AboutCircle 
@@ -231,13 +231,13 @@ export default function AboutPage() {
                   name="David Fonteneau" 
                   image="./david-fonteneau.jpg"
                   role="Event Coordinator"
-                  major="Computer Science '28">
+                  major="Computer Science '27">
               </AboutCircle>
               <AboutCircle 
                   name="Mahi Nuthanapati" 
                   image="./mahi-nuthanapati.png"
                   role="Treasurer"
-                  major="Computer Science '27">
+                  major="Computer Science '26">
               </AboutCircle>
               <AboutCircle 
                   name="Tim Goranchaz" 
