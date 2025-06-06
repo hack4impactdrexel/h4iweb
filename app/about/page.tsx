@@ -79,7 +79,7 @@ export default function AboutPage() {
         }
       `}</style>
 
-      <div className="container px-4 py-12 md:px-6 md:py-16 lg:py-20">
+      <div className="container px-4 py-12 md:px-6 md:py-16 lg:py-5">
         <div className="mx-auto max-w-4xl">
           <div ref={sectionRefs.header} className="slide-up">
             <h1 className="font-space-mono text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">About Us</h1>
@@ -90,7 +90,7 @@ export default function AboutPage() {
             <div className="mt-4 grid gap-6 md:grid-cols-2">
               <div>
                 <p className="text-gray-600">
-                  Hack4Impact is a nonprofit organization that connects student developers with nonprofits to build
+                  <span className="font-bold">Hack4Impact</span> is a nonprofit organization that connects student developers with nonprofits to build
                   technology for social good. Our mission is to empower students to use their technical skills for
                   social impact while providing nonprofits with technology solutions they might not otherwise have
                   access to.
@@ -253,6 +253,9 @@ export default function AboutPage() {
             <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div>
                 <h3 className="font-bold">Our Core Values</h3>
+                <p className="mt-4 text-gray-600">
+                   Our core values guide every project and initiative. We are committed to fostering continuous learning, creating meaningful impact, embracing collaboration, and ensuring inclusion in all that we do.
+                   </p>
                 <ul className="mt-4 space-y-3 text-gray-600">
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
@@ -291,47 +294,59 @@ export default function AboutPage() {
               <div>
                 <h3 className="font-bold">Our Approach</h3>
                 <p className="mt-4 text-gray-600">
-                  We work on semester-long projects with nonprofit partners. For our Ronald McDonald House mobile app
-                  initiative, we follow a structured development process:
+                  We work on semester-long projects with nonprofit partners. For all our projects
+                  and initiatives, we follow a structured development process:
                 </p>
-                <ol className="mt-4 list-none space-y-3 pl-0 text-gray-600">
+                <ul className="mt-4 space-y-3 text-gray-600">
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">1</span>
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                     </div>
-                    <div>Initial consultation with Ronald McDonald House staff</div>
+                    <div>
+                      <strong>Consultation:</strong> Initial consultation with client stakeholders.
+                    </div>
                   </li>
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">2</span>
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                     </div>
-                    <div>Requirements gathering and project scoping</div>
+                    <div>
+                      <strong>Requirements Gathering:</strong> Gathering requirements and defining project scope.
+                    </div>
                   </li>
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">3</span>
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                     </div>
-                    <div>Design and prototyping of the mobile interface</div>
+                    <div>
+                        <strong>Design &amp; Prototyping:</strong> Designing and prototyping the user interface and experience.
+                    </div>
                   </li>
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">4</span>
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                     </div>
-                    <div>Agile development with regular check-ins</div>
+                    <div>
+                      <strong>Development:</strong> Iterative development with regular check-ins and feedback loops.
+                    </div>
                   </li>
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">5</span>
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                     </div>
-                    <div>Testing with actual users (families and staff)</div>
+                    <div>
+                      <strong>Testing:</strong> Conducting tests with real users and stakeholders.
+                    </div>
                   </li>
                   <li className="flex items-start">
                     <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">6</span>
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                     </div>
-                    <div>Deployment and handoff with documentation</div>
+                    <div>
+                      <strong>Deployment:</strong> Deploying the final product and handing off documentation.
+                    </div>
                   </li>
-                </ol>
+                </ul>
               </div>
             </div>
           </section>

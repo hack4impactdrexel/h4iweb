@@ -9,7 +9,7 @@ import { RxDiscordLogo } from "react-icons/rx";
 export function Footer() {
   return (
     <footer className="bg-primary text-white">
-      <div className="container mx-auto px-4 py-12 md:px-6 md:py-16">
+      <div className="container mx-auto px-4 py-12 md:px-6 md:py-10">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
@@ -141,7 +141,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-300">
+        <div className="mt-12 border-t border-gray-600 pt-6 text-center text-sm text-gray-300">
           <p>© {new Date().getFullYear()} Hack4Impact Drexel University Chapter. All rights reserved.</p>
           <p className="mt-2">
             Part of the{" "}

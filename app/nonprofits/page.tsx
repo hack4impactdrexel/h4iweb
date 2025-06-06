@@ -24,26 +24,36 @@ export default function NonprofitsPage() {
                 managers who are passionate about using their skills for social good. By partnering with us, you'll
                 receive:
               </p>
-              <ul className="mt-4 space-y-2 text-gray-600">
+              <ul className="mt-4 space-y-3 text-gray-600">
                 <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#2C3E50]"></div>
-                  <span>A custom software solution designed specifically for your organization's needs</span>
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
+                    <span>A custom software solution designed specifically for your organization's needs</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#2C3E50]"></div>
-                  <span>Professional-quality development at no cost</span>
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
+                    <span>Professional-quality development at no cost</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#2C3E50]"></div>
-                  <span>A dedicated team working with you throughout the semester</span>
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
+                    <span>A dedicated team working with you throughout the semester</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#2C3E50]"></div>
-                  <span>Technical documentation and support for maintaining your application</span>
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
+                    <span>Technical documentation and support for maintaining your application</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-[#2C3E50]"></div>
-                  <span>Access to the broader Hack4Impact network and resources</span>
+                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
+                    <span>Access to the broader Hack4Impact network and resources</span>
                 </li>
               </ul>
             </div>
@@ -64,9 +74,9 @@ export default function NonprofitsPage() {
           <div className="mt-6">
             <ol className="space-y-6">
               <li className="flex gap-4">
-                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[#2C3E50] text-white">
-                  1
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
                 <div>
                   <h3 className="font-bold">Initial Consultation</h3>
                   <p className="mt-2 text-gray-600">
@@ -76,8 +86,8 @@ export default function NonprofitsPage() {
                 </div>
               </li>
               <li className="flex gap-4">
-                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[#2C3E50] text-white">
-                  2
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
                 </div>
                 <div>
                   <h3 className="font-bold">Project Scoping</h3>
@@ -88,9 +98,9 @@ export default function NonprofitsPage() {
                 </div>
               </li>
               <li className="flex gap-4">
-                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[#2C3E50] text-white">
-                  3
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
                 <div>
                   <h3 className="font-bold">Design and Development</h3>
                   <p className="mt-2 text-gray-600">
@@ -100,9 +110,9 @@ export default function NonprofitsPage() {
                 </div>
               </li>
               <li className="flex gap-4">
-                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[#2C3E50] text-white">
-                  4
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
                 <div>
                   <h3 className="font-bold">Testing and Refinement</h3>
                   <p className="mt-2 text-gray-600">
@@ -112,9 +122,9 @@ export default function NonprofitsPage() {
                 </div>
               </li>
               <li className="flex gap-4">
-                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[#2C3E50] text-white">
-                  5
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                      <div className="h-2 w-2 rounded-full bg-white"></div>
+                    </div>
                 <div>
                   <h3 className="font-bold">Delivery and Support</h3>
                   <p className="mt-2 text-gray-600">

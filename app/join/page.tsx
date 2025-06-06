@@ -5,6 +5,8 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import Link from "next/link"
+import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import { HoverCard } from "@radix-ui/react-hover-card"
 export default function JoinPage() {
   // Create refs for sections we want to animate
   const sectionRefs = {
@@ -148,16 +150,46 @@ export default function JoinPage() {
         <section ref={sectionRefs.roles} className="mt-12 slide-left">
           <h2 className="text-2xl font-bold">Roles Available</h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-lg border p-6 shadow-sm hover:shadow-md transition-all">
+            {/* <div className="rounded-lg border p-6 shadow-sm hover:shadow-md transition-all">
+              <div className="rounded-lg flex items-center justify-center mb-6">
+              <Image
+                src="/stock.jpg?height=700"
+                alt="Drexel students collaborating"
+                width={400}
+                height={300}
+                className="rounded-lg object-cover shadow-md"
+              />
+            </div>
               <h3 className="text-xl font-bold">Mobile Developers</h3>
+              
               <p className="mt-2 text-gray-600">
                 Build cross-platform mobile applications using React Native for our Ronald McDonald House initiative.
               </p>
               <p className="mt-4 text-sm text-gray-600">
                 <strong>Skills:</strong> JavaScript/TypeScript, React Native, or willingness to learn.
               </p>
-            </div>
-            <div className="rounded-lg border p-6 shadow-sm hover:shadow-md transition-all">
+            </div> */}
+            <Card className="shadow-sm hover:shadow-md transition-all">
+              <Image
+                src="/placeholder.svg"
+                alt="Drexel students collaborating"
+                width={400}
+                height={300}
+                className="relative w-full"
+              />
+              <CardHeader>
+                <h3 className="text-xl font-bold">Mobile Developers</h3>
+              </CardHeader>
+              <CardContent>
+              <p className="mt-2 text-gray-600">
+                Build cross-platform mobile applications using React Native for our Ronald McDonald House initiative.
+              </p>
+              <p className="mt-4 text-sm text-gray-600">
+                <strong>Skills:</strong> JavaScript/TypeScript, React Native, or willingness to learn.
+              </p>
+              </CardContent>
+            </Card>
+            {/* <div className="rounded-lg border p-6 shadow-sm hover:shadow-md transition-all">
               <h3 className="text-xl font-bold">UI/UX Designers</h3>
               <p className="mt-2 text-gray-600">
                 Create intuitive, accessible user experiences for mobile applications focused on families in need.
@@ -166,17 +198,59 @@ export default function JoinPage() {
                 <strong>Skills:</strong> User research, wireframing, prototyping, visual design, or willingness to
                 learn.
               </p>
-            </div>
-            <div className="rounded-lg border p-6 shadow-sm hover:shadow-md transition-all">
+            </div> */}
+            <Card className="shadow-sm hover:shadow-md transition-all">
+              <Image
+                src="/placeholder.svg"
+                alt="Drexel students collaborating"
+                width={400}
+                height={300}
+                className="relative w-full"
+              />
+              <CardHeader>
+                <h3 className="text-xl font-bold">UI/UX Designers</h3>
+              </CardHeader>
+              <CardContent>
+              <p className="mt-2 text-gray-600">
+                Create intuitive, accessible user experiences for mobile applications focused on families in need.
+              </p>
+              <p className="mt-4 text-sm text-gray-600">
+                <strong>Skills:</strong> User research, wireframing, prototyping, visual design, or willingness to
+                learn.
+              </p>
+              </CardContent>
+            </Card>
+            {/* <div className="rounded-lg border p-6 shadow-sm hover:shadow-md transition-all">
               <h3 className="text-xl font-bold">Product Managers</h3>
               <p className="mt-2 text-gray-600">
-                Lead project teams, coordinate with Ronald McDonald House staff, and ensure successful project delivery.
+                Lead project teams, coordinate with clients, and ensure successful project delivery.
               </p>
               <p className="mt-4 text-sm text-gray-600">
                 <strong>Skills:</strong> Communication, organization, basic technical understanding, or willingness to
                 learn.
               </p>
-            </div>
+            </div> */}
+            <Card className="shadow-sm hover:shadow-md transition-all">
+              <Image
+                src="/placeholder.svg"
+                alt="Drexel students collaborating"
+                width={400}
+                height={300}
+                className="relative w-full"
+              />
+              <CardHeader>
+                <h3 className="text-xl font-bold">Product Managers</h3>
+              </CardHeader>
+              <CardContent>
+              <p className="mt-2 text-gray-600">
+                Lead project teams, coordinate with clients, and ensure successful project delivery.
+              </p>
+              <p className="mt-4 text-sm text-gray-600">
+                <strong>Skills:</strong> Communication, organization, basic technical understanding, or willingness to
+                learn.
+              </p>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
@@ -187,53 +261,53 @@ export default function JoinPage() {
               We recruit new members at the beginning of each semester (Fall, Winter, and Spring). Our application
               process consists of the following steps:
             </p>
-            <ol className="mt-4 space-y-4 text-gray-600">
+            <ul className="mt-4 space-y-3 text-gray-600">
               <li className="flex items-start">
-                <div className="h-6 w-6 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">1</span>
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
                 <div>
                   <strong>Online Application:</strong> Submit your application through our form, including your
                   background, relevant experience, and why you're interested in joining.
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="h-6 w-6 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">2</span>
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
                 <div>
                   <strong>Interview:</strong> Selected applicants will be invited for an interview with our team to
                   discuss their interests and experience.
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="h-6 w-6 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">3</span>
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
                 <div>
                   <strong>Technical Assessment (for developers):</strong> A simple take-home task to demonstrate basic
                   coding skills.
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="h-6 w-6 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">4</span>
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
                 <div>
                   <strong>Design Challenge (for designers):</strong> A small design exercise to showcase your approach
                   and skills.
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="h-6 w-6 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">5</span>
-                </div>
+                <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
+                    <div className="h-2 w-2 rounded-full bg-white"></div>
+                  </div>
                 <div>
                   <strong>Final Decisions:</strong> We'll notify all applicants of our decisions within two weeks after
                   interviews.
                 </div>
               </li>
-            </ol>
+            </ul>
             <div className="mt-8">
               <h3 className="text-xl font-bold">Current Application Timeline</h3>
               <ul className="mt-4 space-y-3 text-gray-600">
@@ -273,7 +347,7 @@ export default function JoinPage() {
             </div>
             <div className="mt-8 text-center">
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScqnCcmJobHURYdwudEXF8QCZ8igOYm6L4_gYnyOrwow9Hemw/viewform" passHref>
-              <Button className="bg-[#27AE60] hover:bg-[#219653]">Fill out the summer application form today</Button>
+              <Button className="bg-[#27AE60] hover:bg-[#219653]">Fill Out the Summer Application Form today</Button>
             </Link>
             {/* <p className="mt-2 text-sm text-gray-600">Applications for Fall 2025 are now open!</p> */}
             </div>
@@ -307,7 +381,7 @@ export default function JoinPage() {
                 development. For designers and product managers, we look for relevant skills and a willingness to learn.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-4">
+            {/* <AccordionItem value="item-4">
               <AccordionTrigger>How will the Ronald McDonald House project work?</AccordionTrigger>
               <AccordionContent>
                 The Ronald McDonald House mobile app is our inaugural project. We'll work closely with their staff to
@@ -315,7 +389,7 @@ export default function JoinPage() {
                 of 2-3 semesters, with different phases focusing on core features, testing, and refinement. All members
                 will contribute to this project in their respective roles.
               </AccordionContent>
-            </AccordionItem>
+            </AccordionItem> */}
             <AccordionItem value="item-5">
               <AccordionTrigger>Can I join if I'm a graduate student?</AccordionTrigger>
               <AccordionContent>
@@ -334,7 +408,7 @@ export default function JoinPage() {
           </p>
           <div className="mt-6">
             <Link href="https://discord.gg/RUWayNEaTG" passHref>
-              <Button className="bg-[#27AE60] hover:bg-[#219653]">Join our discord</Button>
+              <Button className="bg-[#27AE60] hover:bg-[#219653]">Join Our Discord</Button>
             </Link>
             {/* <p className="mt-2 text-sm text-white/80"></p> */}
           </div>

@@ -95,9 +95,9 @@ export default function Home() {
         <div ref={sectionRefs.getInvolved} className="slide-right">
           <GetInvolved />
         </div>
-        <div ref={sectionRefs.social} className="slide-up">
+        {/* <div ref={sectionRefs.social} className="slide-up">
           <SocialPreview />
-        </div>
+        </div> */}
       </div>
     </>
   )

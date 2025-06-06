@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent, CardFooter } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 const projects = [
   // VACS, VRL , IFAM and RMHC
@@ -83,7 +84,7 @@ export default function ProjectsPage() {
               <h2 className="mb-6 inline-block border-b-2 border-[#27AE60] pb-1 text-2xl font-bold">{year}</h2>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
                 {projectsBySemester[year].map((project) => (
-                  <Card key={project.id} className="overflow-hidden">
+                  <Card key={project.id} className="overflow-hidden shadow-sm hover:shadow-md transition-all">
                     <div className="relative h-48 w-full">
                       <Image
                         src={project.image || "/placeholder.svg"}
@@ -97,13 +98,18 @@ export default function ProjectsPage() {
                       <h2 className="text-xl font-bold">{project.semester}</h2>
                       <p className="text-[#27AE60]">{project.organization}</p>
                       <p className="mt-2 text-gray-600">{project.description}</p>
+                      
+                  
+                    </CardContent>
+                    <CardFooter className="align-bottom">
                       <Link
                         href={`/projects/${project.id}`}
                         className="mt-4 inline-block text-[#2C3E50] hover:underline"
                       >
-                        View Case Study →
+                        <Button className="bg-[#27AE60] hover:bg-[#219653]">View Case Study →</Button>
+          
                       </Link>
-                    </CardContent>
+                    </CardFooter>
                   </Card>
                 ))}
               </div>
@@ -116,8 +122,10 @@ export default function ProjectsPage() {
           <p className="mt-2 text-gray-600">
             We're always looking for new nonprofit partners with impactful project ideas.
           </p>
-          <Link href="/nonprofits" className="mt-4 inline-block text-[#2C3E50] hover:underline">
-            Learn how to work with us →
+          <br></br>
+          <Link href="/nonprofits" className="btn-outline">
+           Learn to Work With Us
+          
           </Link>
         </div>
       </div>

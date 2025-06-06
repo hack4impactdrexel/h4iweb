@@ -13,8 +13,10 @@ export function HeroSection() {
               <p className="text-primary-800 font-medium uppercase tracking-wider">WE ARE</p>
               <h1 className="font-mono text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
                 Developers
+              </h1>
                 <br />
-                for social change
+              <h1 className="font-mono text-4xl md:text-5xl lg:text-4xl font-bold text-primary leading-tight">
+                For Social Change
               </h1>
             </div>
             <p className="text-primary-800 text-lg md:text-xl">

@@ -108,9 +108,18 @@ export function Header() {
         }
         
         /* Sticky header animation */
+        .header-border{
+          background: #9bc3d4;
+          background: linear-gradient(90deg,rgba(155, 195, 212, 1) 0%, rgba(87, 199, 133, 1) 99%);
+        }
         .header {
           transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
-        }
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+          border-bottom: 4px solid transparent;
+          border-image:  linear-gradient(90deg,rgba(155, 195, 212, 1) 0%, rgba(3, 67, 87, 1) 99%);
+          border-image-slice: 1;
+          width:100%;
+          }
         
         .header.sticky {
           position: fixed;
@@ -186,9 +195,11 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {[
+              { href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
               { href: "/join", label: "Apply" },
               { href: "/projects", label: "Our Projects" },
+              { href: "/nonprofits", label: "Work With Us"},
               // { href: "/contact", label: "Contact Us" },
             ].map((item, index) => (
               <a
@@ -236,10 +247,12 @@ export function Header() {
           <div className="container mx-auto px-4 py-20 h-full flex flex-col">
             <nav className="flex flex-col gap-8 items-center justify-center flex-grow">
               {[
+                { href: "/", label: "Home" },
                 { href: "/about", label: "About Us" },
                 { href: "/join", label: "Apply" },
                 { href: "/contact", label: "Contact Us" },
                 { href: "/projects", label: "Our Projects" },
+                { href: "/nonprofits", label: "Work With Us"},
                 { href: "/donate", label: "Donate", isPrimary: true },
               ].map((item, index) => (
                 <a
@@ -261,7 +274,10 @@ export function Header() {
               ))}
             </nav>
           </div>
-        </div>
+        </div> 
+        
+      {/* <div className="border">
+      </div>  */}
       </header>
     </>
   )
