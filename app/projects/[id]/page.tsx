@@ -56,6 +56,8 @@ const projects = [
     team: [
       { name: "Lola Sapaeva", role: "Lead UI/UX Designer" },
       { name: "Shams Abrar", role: "Frontend Developer" },
+      { name: "Chibuike Nwume", role: "Frontend Developer" },
+    
     ],
   },
   {
@@ -116,6 +118,30 @@ const projects = [
     semester: "Fall 2025",
     team: [
       { name: "Mahi Nuthanapati", role: "Project Manager" },
+      { name: "Shams Abrar", role: "Front-End Technical Lead" },
+      { name: "Brandon Gorski", role: "Front-End Technical Lead" },
+      { name: "Ryen Ling", role: "Back-End Technical Lead" },
+      { name: "Ivin Mathew", role: "Cloud Infrastructure Team Lead" },
+      { name: "Lola Sapaeva", role: "Design Director" },
+      { name: "Tasmia Rahman", role: "Front-End Developer" },
+      { name: "Christy Tran", role: "Front-End Developer" },
+      { name: "Lizzie Brelidze", role: "Front-End Developer" },
+      { name: "Katie Le", role: "Front-End Developer" },
+      { name: "Noelle Hii", role: "Front-End Developer" },
+      { name: "Jessica Tran", role: "Back-End Developer" },
+      { name: "Eddie Suber", role: "Back-End Developer" },
+      { name: "Zak Oldweiler", role: "Back-End Developer" },
+      { name: "Kimmie Huynh", role: "Back-End Developer" },
+      { name: "Anya", role: "Back-End Developer" },
+      { name: "Ashni Kumar", role: "Back-End Developer" },
+      { name: "Dior White", role: "Cloud Infrastructure Developer" },
+      { name: "Kartik", role: "Cloud Infrastructure Developer" },
+      { name: "Ujjwal", role: "Cloud Infrastructure Developer" },
+      { name: "Quinn", role: "UI/UX Designer" },
+      { name: "Sam", role: "UI/UX Designer" },
+
+
+
       // Add team as needed
     ],
   },

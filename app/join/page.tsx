@@ -171,7 +171,7 @@ export default function JoinPage() {
             </div> */}
             <Card className="shadow-sm hover:shadow-md transition-all">
               <Image
-                src="/placeholder.svg"
+                src="/School Design 2.jpg"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
@@ -201,7 +201,7 @@ export default function JoinPage() {
             </div> */}
             <Card className="shadow-sm hover:shadow-md transition-all">
               <Image
-                src="/placeholder.svg"
+                src="/fkkfkfk.png"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
@@ -232,7 +232,7 @@ export default function JoinPage() {
             </div> */}
             <Card className="shadow-sm hover:shadow-md transition-all">
               <Image
-                src="/placeholder.svg"
+                src="/kjfkegtfueyfuy.png"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
