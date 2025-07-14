@@ -34,7 +34,7 @@ const projects = [
   {
     id: "2",
     title: "Dream Charter Schools Website",
-    organization: "Vision Academy Charter Schools",
+    organization: "Dream Charter Schools",
     description: "Visualized donation and distribution data to improve resource allocation by 15%.",
     challenge:
       "Dream Schools needed a user-friendly and informative website, along with basic branding and social media setup.",
@@ -56,6 +56,8 @@ const projects = [
     team: [
       { name: "Lola Sapaeva", role: "Lead UI/UX Designer" },
       { name: "Shams Abrar", role: "Frontend Developer" },
+      { name: "Chibuike Nwume", role: "Frontend Developer" },
+
     ],
   },
   {
@@ -81,7 +83,10 @@ const projects = [
     githubUrl: "https://github.com/hack4impact/volunteer-portal",
     semester: "Fall 2025",
     team: [
-      { name: "TBD", role: "TBD" },
+      { name: "Shams Abrar", role: "Technical Lead" },
+      { name: "Christy Tran", role: "Front-end Developer" },
+      { name: "Rhea Padke", role: "Front-end Developer" },
+      { name: "Jose Mena", role: "Back-end Developer" },
     ],
   },
   {
@@ -116,7 +121,27 @@ const projects = [
     semester: "Fall 2025",
     team: [
       { name: "Mahi Nuthanapati", role: "Project Manager" },
-      // Add team as needed
+      { name: "Shams / Brandon", role: "Front-End Technical Lead" },
+      { name: "Tasmia", role: "Front-End Developer" },
+      { name: "Christy", role: "Front-End Developer" },
+      { name: "Lizzie", role: "Front-End Developer" },
+      { name: "Katie Le", role: "Front-End Developer" },
+      { name: "Noelle", role: "Front-End Developer" },
+      { name: "Ryen Ling", role: "Back-End Technical Lead" },
+      { name: "Jessica", role: "Back-End Developer" },
+      { name: "Eddie", role: "Back-End Developer" },
+      { name: "Zak", role: "Back-End Developer" },
+      { name: "Kimmie", role: "Back-End Developer" },
+      { name: "Anya", role: "Back-End Developer" },
+      { name: "Ashni", role: "Back-End Developer" },
+      { name: "Ivin Mathew", role: "Cloud Infrastructure Team" },
+      { name: "Dior", role: "Cloud Infrastructure" },
+      { name: "Kartik", role: "Cloud Infrastructure" },
+      { name: "Ujjwal", role: "Cloud Infrastructure" },
+      { name: "Lola Sapaeva", role: "Design Director" },
+      { name: "Quinn", role: "Designer" },
+      { name: "Sam", role: "Designer" },
+      { name: "2 more recruits", role: "Designer" },
     ],
   },
 
