@@ -58,6 +58,8 @@ const projects = [
       { name: "Shams Abrar", role: "Frontend Developer" },
       { name: "Chibuike Nwume", role: "Frontend Developer" },
 
+      { name: "Chibuike Nwume", role: "Frontend Developer" },
+    
     ],
   },
   {
