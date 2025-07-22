@@ -240,7 +240,7 @@ export default function AboutPage() {
                   major="Computer Science '26">
               </AboutCircle>
               <AboutCircle 
-                  name="Tim Goranchaz" 
+                  name="Tim Gorichanaz" 
                   image="./tim_goranchaz.jpg"
                   role="Faculty Advisor"
                   major="Teaching Professor at CCI">
