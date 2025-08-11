@@ -57,6 +57,8 @@ const projects = [
       { name: "Lola Sapaeva", role: "Lead UI/UX Designer" },
       { name: "Shams Abrar", role: "Frontend Developer" },
       { name: "Chibuike Nwume", role: "Frontend Developer" },
+      { name: "Sam Waldman", role: "UI/UX Designer" },
+      { name: "Ohona Rahman ", role: "UI/UX Designer" },
     
     ],
   },
@@ -138,10 +140,7 @@ const projects = [
       { name: "Kartik", role: "Cloud Infrastructure Developer" },
       { name: "Ujjwal", role: "Cloud Infrastructure Developer" },
       { name: "Quinn", role: "UI/UX Designer" },
-      { name: "Sam", role: "UI/UX Designer" },
-
-
-
+      { name: "Sam Waldman", role: "UI/UX Designer" },
       // Add team as needed
     ],
   },
