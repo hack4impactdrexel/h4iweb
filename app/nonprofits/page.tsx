@@ -248,8 +248,7 @@ export default function NonprofitsPage() {
         <section className="mt-12 rounded-lg bg-[#2C3E50] p-8 text-white">
           <h2 className="text-2xl font-bold">Interested in Partnering With Us?</h2>
           <p className="mt-4">
-            While we're currently focused on our Ronald McDonald House mobile app initiative, we're excited to connect
-            with other nonprofits for future collaborations. Reach out to start a conversation!
+            We're excited to connect with nonprofits for future collaborations. Reach out to start a conversation!
           </p>
           <div className="mt-6 flex flex-col gap-4 sm:flex-row">
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScfSk7dXiYAWWvcIPdN0DW1ZRCInnJb11Mct3pWh2L1NgoTFw/viewform?usp=header" passHref>
