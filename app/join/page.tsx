@@ -280,7 +280,7 @@ export default function JoinPage() {
                   discuss their interests and experience.
                 </div>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
@@ -288,7 +288,7 @@ export default function JoinPage() {
                   <strong>Technical Assessment (for developers):</strong> A simple take-home task to demonstrate basic
                   coding skills.
                 </div>
-              </li>
+              </li> */}
               <li className="flex items-start">
                 <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
                     <div className="h-2 w-2 rounded-full bg-white"></div>
@@ -316,7 +316,7 @@ export default function JoinPage() {
                     <div className="h-2 w-2 rounded-full bg-white"></div>
                   </div>
                   <div>
-                    <strong>Applications Open:</strong> Weeek 9 Spring Quarter
+                    <strong>Applications Open:</strong> Week 9 Spring Quarter
                   </div>
                 </li>
                 <li className="flex items-start">
