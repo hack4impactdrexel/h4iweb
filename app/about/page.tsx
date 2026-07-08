@@ -163,16 +163,16 @@ export default function AboutPage() {
                 <p className="mt-2 text-sm text-gray-600">Computer Science '26</p>
               </div> */}
                 <AboutCircle 
-                  name="Brandon Gorski" 
-                  image="./brandon_gorski.jpg"
+                  name="Shams Abrar" 
+                  image="./shams_abrar_2.jpg"
                   role="Executive Advisor"
-                  major="Computer Science '26">
+                  major="Computer Science '28">
                 </AboutCircle>
                 <AboutCircle 
-                  name="Shams Abrar" 
-                  image="./shams_abrar.jpg"
+                  name="Ashni Kumar" 
+                  image="./ashni_kumar.jpg"
                   role="President"
-                  major="Computer Science '28">
+                  major="Data Science '28">
                 </AboutCircle>
               {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
@@ -183,8 +183,8 @@ export default function AboutPage() {
                 <p className="mt-2 text-sm text-gray-600">Computer Science '28</p>
               </div> */}
               <AboutCircle 
-                  name="Chibuike Nwume" 
-                  image="./chibuike_nwume.jpg"
+                  name="Eddie Suber"
+                  image="./eddie_suber.jpg"
                   role="Vice President"
                   major="Computer Science '28">
               </AboutCircle>
@@ -202,10 +202,10 @@ export default function AboutPage() {
                 <p className="mt-2 text-sm text-gray-600">Computer Science '27</p>
               </div> */}
               <AboutCircle 
-                  name="Ryen Ling" 
-                  image="./ryen_ling.jpg"
+                  name="Zak Oldweiler" 
+                  image="./zak_oldweiler.jpg"
                   role="Engineering Chair"
-                  major="Computer Science '26">
+                  major="Computer Science '28">
               </AboutCircle>
               {/* <div className="flex flex-col items-center text-center">
                 <div className="relative h-32 w-32 overflow-hidden rounded-full">
@@ -216,28 +216,28 @@ export default function AboutPage() {
                 <p className="mt-2 text-sm text-gray-600">Computer Science '27</p>
               </div> */}
               <AboutCircle 
-                  name="Lola Sapaeva" 
-                  image="./lola-sapaeva.jpg"
+                  name="Mihika Patel" 
+                  image="./mihika_patel.png"
                   role="Design Director"
-                  major="Computer Science '28">
+                  major="User Experience and Interaction Design '28">
               </AboutCircle>
               <AboutCircle 
-                  name="Nitya Patel" 
-                  image="./nitya-patel.jpg"
+                  name="Lizi Brelidze" 
+                  image="./lizi_brelidze.jpg"
                   role="External Relations & Partnerships Director"
                   major="Computer Science '28">
               </AboutCircle>
               <AboutCircle 
-                  name="David Fonteneau" 
-                  image="./david-fonteneau.jpg"
+                  name="Anya Patel" 
+                  image="./anya_patel.jpg"
                   role="Event Coordinator"
-                  major="Computer Science '27">
+                  major="Computer Science '28">
               </AboutCircle>
               <AboutCircle 
-                  name="Mahi Nuthanapati" 
-                  image="./mahi-nuthanapati.png"
+                  name="Jessica Tran" 
+                  image="./jessica_tran.jpg"
                   role="Treasurer"
-                  major="Computer Science '26">
+                  major="Computer Science '28">
               </AboutCircle>
               <AboutCircle 
                   name="Tim Gorichanaz" 

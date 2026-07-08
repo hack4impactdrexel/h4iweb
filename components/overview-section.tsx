@@ -18,7 +18,7 @@ export function OverviewSection() {
             <div className="relative">
               <div className="absolute -top-3 -left-3 w-24 h-24 bg-accent/30 rounded-tl-2xl -z-10"></div>
               <Image
-                src="https://www.rmhcphilly.org/wp-content/uploads/2021/05/RMHC-Philly-logo-horizontal-305px-X-120-px.jpg"
+                src="https://www.ronaldmcdonaldhousephilly.org/wp-content/uploads/RMH-Philly-HZ-500x302-1.png"
                 alt="Ronald McDonald House Charities Philadelphia logo"
                 width={500}
                 height={400}
