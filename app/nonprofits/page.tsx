@@ -203,9 +203,9 @@ export default function NonprofitsPage() {
             <AccordionItem value="item-1">
               <AccordionTrigger>How much does it cost to work with Hack4Impact?</AccordionTrigger>
               <AccordionContent>
-                Our services are provided at no cost to nonprofit organizations. We are a student volunteer organization
+                Our services are provided for free or low cost to nonprofit organizations. We are a student volunteer organization
                 committed to using our skills for social good. However, if your project requires ongoing hosting or
-                maintenance costs after we deliver it, your organization would be responsible for those expenses.
+                maintenance costs after we deliver it or during development, your organization would be responsible for those expenses.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -219,15 +219,16 @@ export default function NonprofitsPage() {
             <AccordionItem value="item-3">
               <AccordionTrigger>Who owns the intellectual property of the project?</AccordionTrigger>
               <AccordionContent>
-                Your organization will own the intellectual property of the custom solution we build for you. We
+                Your organization will own the intellectual property of the custom solution we build for you.
+                {/* Your organization will own the intellectual property of the custom solution we build for you. We
                 typically develop our projects as open-source software, which means the code is publicly available, but
-                you retain ownership and full rights to use and modify it.
+                you retain ownership and full rights to use and modify it. */}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>When can we propose a project?</AccordionTrigger>
               <AccordionContent>
-                While we're currently focused on our Ronald McDonald House mobile app initiative, we're interested in
+                We're interested in
                 connecting with nonprofits for future projects. You can reach out to us at any time to start a
                 conversation about potential collaboration, and we'll keep you informed about our project timeline and
                 availability.

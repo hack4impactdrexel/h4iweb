@@ -195,7 +195,7 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {[
-              { href: "/", label: "Home" },
+              //{ href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
               { href: "/join", label: "Apply" },
               { href: "/projects", label: "Our Projects" },
@@ -247,13 +247,12 @@ export function Header() {
           <div className="container mx-auto px-4 py-20 h-full flex flex-col">
             <nav className="flex flex-col gap-8 items-center justify-center flex-grow">
               {[
-                { href: "/", label: "Home" },
+                //{ href: "/", label: "Home" },
                 { href: "/about", label: "About Us" },
                 { href: "/join", label: "Apply" },
                 { href: "/contact", label: "Contact Us" },
                 { href: "/projects", label: "Our Projects" },
                 { href: "/nonprofits", label: "Work With Us"},
-                { href: "/donate", label: "Donate", isPrimary: true },
               ].map((item, index) => (
                 <a
                   key={item.href}

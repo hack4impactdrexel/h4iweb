@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord } from '@fortawesome/free-solid-svg-icons'
 import { FaDiscord } from "react-icons/fa6";
 import { RxDiscordLogo } from "react-icons/rx";
+import DragonLink from "./logos/DragonLink"
 export function Footer() {
   return (
     <footer className="bg-primary text-white">
@@ -37,11 +38,11 @@ export function Footer() {
             <p className="text-sm text-gray-300">Empowering Students. Transforming Social Impact.</p>
             <div className="flex gap-4">
               <Link
-                href="https://www.instagram.com/hack4impactdrexel/"
-                aria-label="Facebook"
-                className="text-gray-300 hover:text-white transition-colors"
+                href="https://dragonlink.drexel.edu/organization/hack-4-impact"
+                aria-label="DragonLink"
+                className="fill-current text-gray-300 hover:text-white transition-colors"
               >
-                <Facebook className="h-5 w-5" />
+                <DragonLink className="h-5 w-5" />
               </Link>
               <Link
                 href="https://www.instagram.com/hack4impactdrexel/"

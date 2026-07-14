@@ -51,6 +51,7 @@ const projects = [
     ],
     isActive:true,
     liveUrl: null,
+    status: "Completed",
     githubUrl: "https://github.com/hack4impact/volunteer-portal",
     semester: "Fall 2025",
     team: [
@@ -82,6 +83,7 @@ const projects = [
     ],
     isActive:true,
     liveUrl: null,
+    status: 'Completed',
     githubUrl: "https://github.com/hack4impact/volunteer-portal",
     semester: "Fall 2025",
     team: [
@@ -197,7 +199,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
                 className="flex items-center gap-2 rounded-md bg-[#57C785] px-4 py-2 text-white hover:bg-[#1e2b38]"
               >
                 <ExternalLink className="h-4 w-4" />
-                Project Currently In Progress
+                {project.status || 'Project Currently In Progress'}
               </a>
             )}
             {project.liveUrl && (
