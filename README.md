@@ -14,7 +14,7 @@ See the detailed instructions below.
 
 Install dependencies:
 
-```shellscript
+```shellscript 
 npm install
 # or
 yarn install
