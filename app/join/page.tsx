@@ -170,19 +170,19 @@ export default function JoinPage() {
               </p>
             </div> */}
             <Card className="shadow-sm hover:shadow-md transition-all">
-              <Image
+              {/* <Image
                 src="/School Design 2.jpg"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
                 className="relative w-full"
-              />
+              /> */}
               <CardHeader>
-                <h3 className="text-xl font-bold">Mobile Developers</h3>
+                <h3 className="text-xl font-bold">Software Developers</h3>
               </CardHeader>
               <CardContent>
               <p className="mt-2 text-gray-600">
-                Build cross-platform mobile applications using React Native for our Ronald McDonald House initiative.
+                Build cross-platform mobile applications using React Native and web applications with React.
               </p>
               <p className="mt-4 text-sm text-gray-600">
                 <strong>Skills:</strong> JavaScript/TypeScript, React Native, or willingness to learn.
@@ -200,13 +200,13 @@ export default function JoinPage() {
               </p>
             </div> */}
             <Card className="shadow-sm hover:shadow-md transition-all">
-              <Image
+              {/* <Image
                 src="/fkkfkfk.png"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
                 className="relative w-full"
-              />
+              /> */}
               <CardHeader>
                 <h3 className="text-xl font-bold">UI/UX Designers</h3>
               </CardHeader>
@@ -231,13 +231,13 @@ export default function JoinPage() {
               </p>
             </div> */}
             <Card className="shadow-sm hover:shadow-md transition-all">
-              <Image
+              {/* <Image
                 src="/kjfkegtfueyfuy.png"
                 alt="Drexel students collaborating"
                 width={400}
                 height={300}
                 className="relative w-full"
-              />
+              /> */}
               <CardHeader>
                 <h3 className="text-xl font-bold">Product Managers</h3>
               </CardHeader>
@@ -403,8 +403,7 @@ export default function JoinPage() {
         <section ref={sectionRefs.cta} className="mt-12 rounded-lg bg-[#2C3E50] p-8 text-white slide-up">
           <h2 className="text-2xl font-bold">Ready to Make an Impact?</h2>
           <p className="mt-4">
-            Join our community of Drexel student technologists building software for social good, starting with our
-            Ronald McDonald House mobile app initiative.
+            Join our community of Drexel student technologists building software for social good.
           </p>
           <div className="mt-6">
             <Link href="https://discord.gg/RUWayNEaTG" passHref>
