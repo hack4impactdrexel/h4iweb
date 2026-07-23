@@ -140,8 +140,8 @@ export default function NonprofitsPage() {
         <section className="mt-12">
           <h2 className="text-2xl font-bold">Project Criteria</h2>
           <p className="mt-4 text-gray-600">
-            While we're currently focused on our Ronald McDonald House mobile app initiative, we're interested in
-            connecting with other nonprofits for future projects. We look for proposals that:
+            We're interested in connecting with other nonprofits for future projects. 
+            We look for proposals that:
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <div className="rounded-lg border p-4">

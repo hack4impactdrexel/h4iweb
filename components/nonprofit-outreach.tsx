@@ -11,8 +11,7 @@ export function NonprofitOutreach() {
           </div>
           <h2 className="font-mono text-3xl md:text-4xl font-bold text-primary mb-6">For Nonprofit Partners</h2>
           <p className="text-primary-800 text-lg">
-            We partner with nonprofit organizations to build custom software solutions at no cost. Our current focus is
-            on our mobile app initiative with Ronald McDonald House Charities.
+            We partner with nonprofit organizations to build custom software solutions at no development cost.
           </p>
         </div>
 

@@ -12,7 +12,7 @@ export function GetInvolved() {
           <h2 className="font-mono text-3xl md:text-4xl font-bold text-primary mb-6">Get Involved</h2>
           <p className="text-primary-800 text-lg">
             Join our community of passionate Drexel students using their skills to make a difference. Be part of our
-            inaugural Ronald McDonald mobile app initiative!
+            team of student developers and designers!
           </p>
         </div>
 
