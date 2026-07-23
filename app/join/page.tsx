@@ -89,8 +89,7 @@ export default function JoinPage() {
             Join Hack4Impact Drexel
           </h1>
           <p className="mt-4 max-w-3xl text-lg text-gray-600">
-            Become part of a community of Drexel students using technology to create social impact. Join our inaugural
-            Ronald McDonald House mobile app initiative!
+            Become part of a community of Drexel students using technology to create social impact.
           </p>
         </div>
 
@@ -103,12 +102,6 @@ export default function JoinPage() {
                 society. As a member, you'll:
               </p>
               <ul className="mt-4 space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
-                    <div className="h-2 w-2 rounded-full bg-white"></div>
-                  </div>
-                  <div>Work on our Ronald McDonald House mobile app initiative</div>
-                </li>
                 <li className="flex items-start">
                   <div className="h-5 w-5 flex-shrink-0 rounded-full bg-[#27AE60] mt-0.5 mr-3 flex items-center justify-center">
                     <div className="h-2 w-2 rounded-full bg-white"></div>
