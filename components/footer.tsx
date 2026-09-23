@@ -66,7 +66,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </Link>
               <Link
-                href="https://discord.gg/RUWayNEaTG"
+                href="https://discord.gg/NK9j4nE6D"
                 aria-label="Discord"
                 className="text-gray-300 hover:text-white transition-colors"
               >
